@@ -4,7 +4,7 @@ org.stackbox.archetypes
 It's a set of maven3 archetypes during my career, with convenient usage.
 
 
-##Create SSM Project
+###Create SSM Project
 
 
     mvn archetype:generate 
@@ -14,7 +14,7 @@ It's a set of maven3 archetypes during my career, with convenient usage.
      -DgroupId=<my.groupid>
      -DartifactId=<my-artifactId>
 
-##Create MR Project for Hadoop1.x
+###Create MR Project for Hadoop1.x
 
     mvn archetype:generate 
      -DarchetypeGroupId=org.stackbox.archetypes 
@@ -24,7 +24,7 @@ It's a set of maven3 archetypes during my career, with convenient usage.
      -DartifactId=<my-artifactId>
 
 
-##Create MR Project for Hadoop2.x
+###Create MR Project for Hadoop2.x
 
     mvn archetype:generate 
      -DarchetypeGroupId=org.stackbox.archetypes 
