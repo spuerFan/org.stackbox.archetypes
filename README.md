@@ -18,7 +18,7 @@ It's a set of maven3 archetypes during my career, with convenient usage.
 
     mvn archetype:generate 
      -DarchetypeGroupId=org.stackbox.archetypes 
-     -DarchetypeArtifactId=hadoop-v2-mr
+     -DarchetypeArtifactId=hadoop-v1-mr
      -DarchetypeVersion=0.0.1-SNAPSHOT
      -DgroupId=<my.groupid>
      -DartifactId=<my-artifactId>
@@ -28,7 +28,7 @@ It's a set of maven3 archetypes during my career, with convenient usage.
 
     mvn archetype:generate 
      -DarchetypeGroupId=org.stackbox.archetypes 
-     -DarchetypeArtifactId=hadoop-v1-mr
+     -DarchetypeArtifactId=hadoop-v2-mr
      -DarchetypeVersion=0.0.1-SNAPSHOT
      -DgroupId=<my.groupid>
      -DartifactId=<my-artifactId>
