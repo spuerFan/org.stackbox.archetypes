@@ -53,6 +53,5 @@
     <modules>
         <module>webapp-ssm-basic</module>
         <module>hadoop-v1-mr</module>
-        <module>hadoop-v2-mr</module>
     </modules>
 </project>
