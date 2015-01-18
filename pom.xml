@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.stackbox.archetypes</groupId>
     <artifactId>parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-RELEASE</version>
     <packaging>pom</packaging>
+    <url>http://github.com/superalsrk/org.stackbox.archetypes</url>
+    <name>org.stackbox.archetypes</name>
+    <description>A set of maven3 archetypes during my career</description>
 
     <developers>
         <developer>
@@ -34,7 +36,7 @@
         <connection>scm:git:git@github.com:superalsrk/org.stackbox.archetypes.git</connection>
         <url>scm:git@github.com:superalsrk/org.stackbox.archetypes.git</url>
         <developerConnection>scm:git:git@github.com:superalsrk/org.stackbox.archetypes.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>parent-0.0.2</tag>
     </scm>
 
     <distributionManagement>
@@ -54,4 +56,22 @@
         <module>webapp-ssm-basic</module>
         <module>hadoop-v1-mr</module>
     </modules>
+     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.5</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
