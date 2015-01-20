@@ -3,11 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.stackbox.archetypes</groupId>
     <artifactId>parent</artifactId>
-    <version>0.0.2-RELEASE</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <url>http://github.com/superalsrk/org.stackbox.archetypes</url>
     <name>org.stackbox.archetypes</name>
     <description>A set of maven3 archetypes during my career</description>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
 
     <developers>
         <developer>

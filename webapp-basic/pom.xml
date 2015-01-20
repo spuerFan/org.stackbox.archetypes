@@ -4,10 +4,10 @@
     <parent>
         <groupId>org.stackbox.archetypes</groupId>
         <artifactId>parent</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3-RELEASE</version>
     </parent>
 
-    <artifactId>webapp-ssm-pro</artifactId>
+    <artifactId>webapp-basic</artifactId>
     <packaging>jar</packaging>
 
     <name>webapp-ssm-basic</name>
